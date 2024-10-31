@@ -1,0 +1,372 @@
+.rchp-heading {
+    font-size: 200%;
+    font-weight: 600;
+    margin-bottom: 1.0em;
+}
+
+.rchp-bordered-container {
+    min-width: 600px;
+    display: inline-block;
+    border-color: #0087B4;
+    border-width: 14px;
+    border-style: solid;
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    padding: 32px;
+}
+
+.rchp-activation-error {
+    color: red;
+    font-weight: bold;
+    font-size: 125%;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.rchp-header {
+    line-height: initial;
+    margin-bottom: 32px;
+}
+
+.rchp-title-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rchp-title {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.rchp-credits {
+    opacity: 0.75;
+}
+
+.rchp-version {
+    font-size: 80%;
+    opacity: 0.25;
+}
+
+.rchp-main-content {
+    line-height: initial;
+}
+
+.rchp-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rchp-link:hover {
+    color: #0073aa;
+}
+
+.rchp-shortcode {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+}
+
+.rchp-footer {
+    display: block;
+    margin-top: 100px;
+    color: #CCCCCC;
+    background-color: #23292D;
+    padding: 12px;
+    line-height: 1.4;
+    margin-right: 20px;
+}
+
+.rchp-footer-site-logo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.rchp-footer-site-title {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: #65686a;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.rchp-rating {
+    display: inline-block;
+    margin-left: 24px;
+    line-height: 1.8;
+}
+
+.rchp-rating-highlight {
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.rchp-summary-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.rchp-summary-item {
+    padding-right: 64px;
+}
+
+.rchp-summary-item-header {
+    font-weight: 600;
+    font-size: 350%;
+}
+
+#rchp-setup-container {
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+#rchp-setup-error {
+    color: red;
+    font-weight: 600;
+}
+
+.rchp-setup-section {
+    margin: 32px;
+}
+
+.rchp-setup-header {
+    color: #23282d;
+    font-size: 150%;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#rchp-setup-create-affiliate-success {
+    display: none;
+}
+
+.rchp-admin-table {
+    border-collapse: collapse;
+    white-space: nowrap;
+    margin-top: 8px;
+    text-align: initial;
+}
+
+.rchp-admin-table td, .rchp-admin-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.rchp-admin-table tr:nth-child(even){background-color: #CCFFFF;}
+.rchp-admin-table tr:nth-child(odd){background-color: #99CCFF;}
+
+.rchp-admin-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
+
+.rchp-admin-table-sortable-column:hover {
+    cursor: pointer;
+    color: #FFFFD5;
+}
+
+.rchp-section-container {
+    display: inline-block;
+}
+
+.rchp-sections {
+    display: flex;
+    margin-left: 16px;
+    margin-top: 25px;
+    border: 1px solid blue;
+    font-size: 20px;
+}
+
+.rchp-section {
+    display: none;
+    min-height: 400px;
+    margin: 32px;
+}
+
+.rchp-section-item {
+    padding: 6px 25px;
+    margin-right: 50px;
+    text-align: center;
+    vertical-align: top;
+    color: #999999;
+    text-decoration: none;
+    flex-grow: 1;
+    flex-basis: 0;
+    border: 1px solid #eeeeee;
+    white-space: nowrap;
+}
+
+.rchp-section-item:hover {
+    cursor: pointer;
+    color: #0073aa;
+}
+
+.rchp-section-item-title {
+    margin-top: 3px;
+    font-size: 120%;
+}
+
+.rchp-section-item-selected {
+    opacity: 1.0;
+    border-bottom: solid;
+    color: #0073aa;
+}
+
+.rchp-hide-button {
+    font-size: 75%;
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+.rchp-admin-message, #rchp-save-commissions-message {
+    margin: 12px 0;
+    color: blue;
+}
+
+.rchp-admin-error {
+    color: red;
+    font-weight: 600;
+}
+
+.rchp-admin-top-text {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 120%;
+}
+
+#rchp-save-settings-form .description {
+    display: block;
+    max-width: 400px;
+}
+
+.rchp-affiliate-url {
+    text-decoration: none;
+}
+
+.rchp-section-reports-results {
+    margin-top: 12px;
+}
+
+#rchp-affiliates-table tr:hover {
+    background-color: #FFFFC5;
+}
+
+#rchp-create-affiliate-form {
+    display: inline-block;
+}
+
+#rchp-overlay {
+    position: fixed;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0.6;
+}
+
+#rchp-edit-affiliate-container {
+    min-width: 250px;
+    background: #FFFFFF;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.2em;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position: absolute;
+    display: none;
+    padding: 24px;
+}
+
+.rchp-edit-affiliate-close-button {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+#rchp-create-user_id, #rchp-edit-user_id {
+    display: block;
+}
+
+.rchp-admin-report-table-container {
+    display: inline-block;
+    text-align: right;
+}
+
+.rchp-admin-exporting-message {
+    color: blue;
+}
+
+.rchp-input-text-small {
+    width: 75px;
+}
+
+#rchp-section-commissions {
+    line-height: 2.0;
+}
+
+.rchp-section-subtitle {
+    font-size: 150%;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.rchp-section-spacer {
+    margin-top: 4.0em;
+}
+
+.rchp-admin-enroll-notice {
+    font-size: 125%;
+    margin: 1.0em 0;
+}
+
+.rchp-input-field-container {
+    position: relative;
+    margin-top: 12px;
+}
+
+.rchp-edit-affiliate-cancel  {
+    vertical-align: bottom;
+    margin-left: 8px;
+}
+
+.rchp-edit-affiliate-delete {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    color: red;
+    opacity: 0.6;
+}
+
+.rchp-delete-affiliate:hover {
+    color: red;
+    opacity: 1.0;
+}
+
+.rchp-hidden {
+    display: none;
+}
+
+.rchp-invisible {
+    visibility: hidden;
+}
+
+.rchp-pull-right {
+    float: right;
+}
+
+.rchp-pull-left {
+    float: left;
+}

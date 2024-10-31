@@ -1,0 +1,3 @@
+#adminmenu li.menu-top[class*="rcode"] .wp-menu-image img {
+    width: 18px !important;
+}
